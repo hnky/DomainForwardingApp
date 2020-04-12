@@ -51,12 +51,19 @@ namespace DomainForwardingApp
 
         private static void RegisterDomains()
         {
-            const string mainDomain = "https://www.maindomain.com";
+            const string mainDomain = "https://www.roadtripafrica.com";
 
             //Key: origin domain, Value: target domain
             Domains = new Dictionary<string, string>();
-            Domains.Add("otherdomain.com", mainDomain);
-            Domains.Add("www.otherdomain.com", mainDomain);
+            Domains.Add("roadtripafrica.com", "https://www.roadtripafrica.com");
+            Domains.Add("roadtripafrica.de", "https://www.roadtripafrica.de");
+            Domains.Add("roadtripafrica.nl", "https://www.roadtripafrica.nl");
+            Domains.Add("roadtripafrica.fr", "https://www.roadtripafrica.fr");
+
+            Domains.Add("roadtripuganda.com", "https://www.roadtripafrica.com/uganda");
+            Domains.Add("roadtripmadagascar.com", "https://www.roadtripafrica.com/madagascar");
+            Domains.Add("roadtriptanzania.com", "https://www.roadtripafrica.com/tanzania");
+            Domains.Add("roadtripkenya.com", "https://www.roadtripafrica.com/kenya");
         }
     }
 }

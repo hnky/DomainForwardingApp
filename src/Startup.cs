@@ -64,6 +64,11 @@ namespace DomainForwardingApp
             Domains.Add("roadtripmadagascar.com", "https://www.roadtripafrica.com/madagascar");
             Domains.Add("roadtriptanzania.com", "https://www.roadtripafrica.com/tanzania");
             Domains.Add("roadtripkenya.com", "https://www.roadtripafrica.com/kenya");
+
+            Domains.Add("www.roadtripuganda.com", "https://www.roadtripafrica.com/uganda");
+            Domains.Add("www.roadtripmadagascar.com", "https://www.roadtripafrica.com/madagascar");
+            Domains.Add("www.roadtriptanzania.com", "https://www.roadtripafrica.com/tanzania");
+            Domains.Add("www.roadtripkenya.com", "https://www.roadtripafrica.com/kenya");
         }
     }
 }
